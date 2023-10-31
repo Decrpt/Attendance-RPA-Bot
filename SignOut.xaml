@@ -1,0 +1,123 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SignOut" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1179,1057" sap2010:WorkflowViewState.IdRef="SignOut_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="SignOut" sap:VirtualizedContainerService.HintSize="546,992" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: Coforge Limited" sap:VirtualizedContainerService.HintSize="484,881" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="f01075d1-32ce-4a7f-989b-3f32f2f1504a" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,664" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f01075d1-32ce-4a7f-989b-3f32f2f1504a" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://iengage.coforge.com/ess2/NewHomePage/Welcome" CvElementArea="1153, 345, 46, 30" CvTextArea="1160, 351, 32, 12" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="1155, 347, 43, 28" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Close'" FullSelectorArgument="&lt;webctrl aria-role='button' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' tag='BUTTON' type='button' class='btn btn-sm btn-primary' aaname='Close' check:innerText='Close' /&gt;" Guid="582f4c3e-71ed-4afb-ba01-15f9ecad81b7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC8AAAAgCAYAAACCcSF5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK/SURBVFhH7ZjbS5NxGMe9rD+gq67Cyyjo2puCqCgiJIooY6EFRYWJK6MLqS3XTaBmB4nQSq1YhyXTStJ1HBY1MVMTD3k+Zk3nNjVh3/o+8L68214Gk8a22MWX7fc8v+e3z3PY74U3LRAIIFn1/8B7bTnwF63Ekjkt4UQu8ml5VXg6rMfWYPXaDKxI35hwIhf5tAmo8MwsUcEVkY+cYfBsjV5AoomcKfh4aFnwq9Zvh6mkAjW2BpRXP8Wu7AKxm0sr0fT+MzIyj4bFxEJRw6/bnIXWjm7MzvnwurkFza52jIxPwZBnRqW1HqMTP7AtK0839l8ranhW/Kd7FvmmK6otPWOPdEMLz/WZomvSCXujE9n5FnU/v7NrD+scsJTdkXjadx46jUf1r/D2Y6v8Ds9QYvQUNXyk6mp9VnsTpqbdAvjy3Sfp1MXS28gtLMYvt0dsTMDV1oUbVTYczDXJ/g8t7XhQ2yjncE/ob2gVE3ijuQyDIxO4WVOr+hxOl4wYK80x23e8MCj21n07evqHZSy55r7hsUnsPnIuaJ9WMYEvsFzH96ExAdD6OnsGsGGrQarr9c/LmlXn2NDP7rR96xN19Q5Kh7TjFqqo4Vmhsclp7DAYw3yR4KsevxBYZc0kLhRXYPzvWXVNToll5QmriN2JNPdRw3NmZzxeVD9pCLKxEwp8jtEileOfj36CdnT345mjGVv2n8KmvSfUWNvzN/ja1YfL5fck9sDJ86qPI6OMkZ6ihqdY/fmFRfj8C9L+odFJZB4+q8IzEd757hmP+LlvYHhcnge8gTgOtCu6dPWuJMhbZvH3EjxeH+Z8fnzp7I34zFgWPMU55Q2hN/uK2HK2nomF+hinNxZMgufyU2vX07LhE0Ep+HgpBR8vpeDjpRR8vKQLn9SvPpL6pZOSADNjaxJN5NKCU0HwyaYkhg/gD8vvDkAC/uv5AAAAAElFTkSuQmCC" InformativeScreenshot="b37c3bec39738b76e3f56eb8db462343.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Coforge Limited' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'AK'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f01075d1-32ce-4a7f-989b-3f32f2f1504a" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://iengage.coforge.com/ess2/NewHomePage/Welcome" CvType="ArrowButton" DesignTimeRectangle="1563, 140, 7, 13" DesignTimeScaleFactor="1" FriendlyName="'I'" FullSelectorArgument="&lt;webctrl parentid='_profile' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='_profile' tag='I' type='' class='fa fa-sort-down text-muted fs-16 me-1' aaname='' /&gt;" Guid="7a31358d-794f-4223-94d0-b7d2c5ac5c37" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAAsAAAARCAYAAAAL4VbbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABgSURBVChTY/hPAhhVjAxorfjjif8d8ZH/PQKw4dr/21+BVcFM/vz/wvTU//LKDv850LB9x4n/H/5AVCE5A1MDskIQQHMzQgO6QhDA4sHP/+9feoChEASwKMYNaKX4/38AIim7EvdGT4AAAAAASUVORK5CYII=" InformativeScreenshot="7ba08e80eb6cb85a86d9118172cb3858.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Coforge Limited' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="1516, 128, 46, 43" CvTextArea="1530, 141, 18, 12" CvTextArgument="AK" CvType="Icon" DesignTimeRectangle="1520, 130, 40, 40" ElementType="Text" FriendlyName="'AK'" FullSelectorArgument="&lt;webctrl parentid='_profile' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='_profile' tag='DIV' type='' class='profile-image ProfileInitialsHome me-1' aaname='AK' check:innerText='AK' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANvSURBVFhH5ZffS1NhGMf7swTpQoggvElTxBEhhaI5nAwxdjFn6GTUXDMvbMRCmVO6yDaXjEbJLgTB4UUlRXQRRAVdSDcGRRff3u/cOZ7N9/zUnXHoC18Y73nf93x2zvM+z3MuwGP6/4C/HR5h79MPFCqfkSl/xKOXB3i49bZq/uYYr3EO555VjoB/Hv3GzofvSL96j4UXb2yZa7iWeziRLeBff/5i+91XKYgTcy/uaUeWgQ++HFZfsezGZzH35N5WZQn4PJ+qnnkPKzIF5oGR3aAZ5r3MZAjsJqxiM2hdYDfCQM9G4SEF5iGQbeSm9Q7iKWCmmWZkA7smgyzlnQJuZSg0WhYadcCsPrKFrXRjRawDZsmULWqlyaRVHbCT3iCRfYZgLI1AsoBYvja+WcHM4jKCiyXEN2tjuW2E5sW8heLJmAWTSSsVmJ2UbIGhBdhUZBJtXX609UQQzO4fj+fLCPr9aB9OI5rjvB2EwiExJ4SRx7un9zGxtstTgdn+ySYbeqOIoZsClsDCffe3keC4BngmV0H0wRwudQXhm69dt2myKVKBnVS1+JMldPYEMZDMI+AfR0dgFVGGhQZ4aimF7l4/OsN5xGyEgtba6qcCs9GWTdZ3BdOzYbT77uHOuojZWATtfXOYWBNhUQNWnnzbYArTG7I9rJlsilRg28UiV8LooIDxzeDWbAojkwK+axy+ZPkEuD8C3xhjPIShpR35PhZMNkUqMD9pZJP1nFhJo/uaHxcHwui9HREO47J4mh0Ta4g918TwehGjwwL+ungTfPqSvcxMNkUOgfePQ6BXZIaMAsGMITJBNUReq8DMEonMKvr6xZ8ZWxaHsHEvc0uBbYWEyKkB5QlqAOKpJK6IbHBjcasOmH8wuhCvvoGrdwu28jAtDQlbh07k3+hKSbzuSv14frc6Hn26h3hWXM/unqQxsSaWKWF6pWwbWHroWtGsW7U0rTkqHC5ZWjgclWaXLC3NlJPmp9nWbX4oz7WXnmvgKU99IlGe+wilPPWZr6iVoSELBUW6wFQrqp+2qslkCEy5CW0GS5kCU26Eh1EYaGUJmOIhaEb24J56B0wmy8AU08x5Pm3uJUtdRrIFrIjVhyXTSe/BNVzbWMGsyhGwVuyk2P7xwLDR5ivmJw3N3xzjNc7Rdl1OdWZgt+UxYOAfRIpygZ7vFlwAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logout'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f01075d1-32ce-4a7f-989b-3f32f2f1504a" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://iengage.coforge.com/ess2/NewHomePage/Welcome" CvElementArea="1397, 370, 17, 15" CvTextArea="1418, 371, 39, 13" CvTextArgument="Logout" CvType="Icon" DesignTimeRectangle="1393, 360, 180, 40" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl aria-label='Application Logout' aria-role='presentation' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Application Logout' aria-role='presentation' tag='A' type='' class='dropdown-item' aaname=' Logout' check:innerText='Logout' /&gt;" Guid="c447adb4-5705-4951-a181-dcd756f42286" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALgAAAAsCAYAAADWxHKSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQESURBVHhe7djbS2xlHMbxLvsDvOm6fyDoqosNXaWC2yRQvNE2kcEWBJ3tiHgIJUvDUWzwsGEjFuIGR4fEQDMPCB4QUwRTETPyAGbjNI2HGW08PO3fC7PQmSWuHbKjX8/FB13veteaufj6+q712tXVFYi0YuCkGgMn1Rg4qcbASTUGTqoxcFKNgZNqDJxUY+CkGgMn1Rg4qcbASTUGTqq98sC3t7cNu3NE981x4Gd/xRAMhY3Qn4eInZ/bzruLz+cz7M69KnNzc2hsbLQ9R7o4Cnw/8AceuerwqecZGjt64O304bffgyb0j931+Gn9F9vr7NwW+OXlJXZ3d9HX14ehoSEEg0Hr3MXFBTY2NjA1NYWJiQm0t7ejv78fZ2dniEajJtju7m4sLy+buXKNXL++vm7d4+joCKurq4hEIhgbG0NdXZ2ZI+Q+8Xmki6PAfd+No9v/fdK4rOYPH7nx4IPHjiO/LXAJt7Cw0Pz0+/3Izc3F5uYmzl/8p2htbUVTU5MJvLe31xxLmOFwGGVlZejq6sLk5CSqqqrg9XrNNYmrtPyB1NTUmMjLy8vN/VtaWtDR0YH9/f0b34X0cBT4829/MOT3mR+XzSouPvuqC2+99yFef/Ndx5HbBX56eoqKigosLCzcmCfhSsglJSU4ODgw4xJvfX09lpaWMD8/j8rKSmsFlrnFxcXY29u7NfD4is8tyv/DSwf+ufdrE7QdJ5HbBS7RSXwSYXwsHqGs0i6XC1tbW9ZciXplZSUp1Ov3YeAk7jVwUfHlU/NAmniPOKeBz8zMWBFOT08jPT3dzMnJyUFbWxtisVhSqLK/rq6uZuBkudfAP3ryBQLBUNL119kFLtuOhoYGjI+Pm2OJ1+PxYHBw0GxfJEzZkpycnFgPkWJtbQ1utxuHh4fmWB4qi4qKEAqFkrYvcu/S0lIr8NraWvM58nB7/Z6ky0sHHomeWq8Lf/51F+l5LsdxC4k7JSXlBhmTB8r8/HxkZWUhIyPDxClBS4ADAwPIzMxEdnY20tLSTKjyxkUC7ezsRGpqqjknq7ys/PI5cq08gMr8vLw8s5+Pr+Cyny8oKDCfI9fJ25fE70k6OAp8cHQabd/4X6x0lzfG429RnMZ9F4lZ9tzHx8fW2M7OjnmlJ9uP+Njo6Ciam5utY1mlZdWW4ONjQu4nrwcTx+86R3o4Cvw4EjVvTN54+6FZrd95/xOzeoePTuB5+vxe4r6NBC4re09Pj3lNODIyYlbf4eFh2/lE1zkK/N8m243FxUUT+OzsLAKBgO08okT/icCJ/ikGTqoxcFKNgZNqDJxUY+CkGgMn1Rg4qcbASTUGTqoxcFKNgZNqDJxUY+CkGgMn1Rg4qcbASTUGTopd4W92bWotnPbXkAAAAABJRU5ErkJggg==" InformativeScreenshot="7760eb00075fd1101ebe19b4679932b0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Coforge Limited' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1066" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="ab64db0c3f3d8a8f94364c45f7015e55.jpg" Selector="&lt;html app='chrome.exe' title='Coforge Limited' /&gt;" Title="Coforge Limited" Url="https://iengage.coforge.com/ess2/NewHomePage/Welcome" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
